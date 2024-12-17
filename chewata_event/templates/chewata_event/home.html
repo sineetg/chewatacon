@@ -1,0 +1,170 @@
+{% extends 'chewata_event/base.html' %}
+{% block home %}
+{% load static %}
+<section class="intro">
+    <div class="main-intro">
+        <h2>Ethiopian Gaming Convention</h2>
+        <h1>CHEWATACON</h1>
+        <a href="#reg">Register for the Event</a>
+    </div>
+
+    <div class="intro_img">
+        <img src="{% static 'chewata_event/intro.png' %}" alt="">
+    </div>
+</section>
+
+<section class="description_sec">
+    <div class="discription">
+        <div class="discription_img">
+            <img src="{% static 'chewata_event/logo.jpg' %}" alt="">
+        </div>
+        <div class="discription_txt">
+            <h5>WELCOME TO CHEWATACON</h5>
+            <h1>BIGGEST ETHIOPIAN <br> GAMING CONFERENCE</h1>
+            <P>"In a nutshell: This month-long festival will be about celebrating playfulness, our game culture and promote the Ethiopian gaming ecosystem in order to establish a stronger, synergized gaming scene."</P>
+        </div>
+    </div>
+</section>
+
+<section class="chewatapromo">
+    <div class="promovid">
+        <iframe src="https://www.youtube.com/embed/jHJDFGcOSBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<div class="banner">
+    <img src="{% static 'chewata_event/back.jpg' %}" alt="">
+</div>
+
+
+<div class="icons_txt">
+    <h1>Why Chewatacon?</h1>
+</div>
+
+<section class="icons">
+    <div class="n_places">
+        <i class = "fa fa-users"></i>
+        <ul>
+            <h3>Ecosystem Building</h3>
+            <li>Bringing together the gaming communities, connecting the dots for developers, consumers, and businesses</li>
+        </ul>
+    </div>
+    <div class="n_events">
+        <i class = "fa fa-trophy"></i>
+        <ul>
+            <h3>Fit for your corporate needs</h3>
+            <li>Recognizing an individual's contribution, achievements, and the institutions that govern them.</li>
+        </ul>
+    </div>
+    <div class="n_photos">
+        <i class = "fa fa-handshake-o"></i>
+        <ul>
+            <h3>Set up elaborate design notifications</h3>
+            <li>Platform for exploring the potentials of games beyond entertainment.</li>
+        </ul>
+    </div>
+    <div class="n_speakers">
+        <i class = "fa fa-home"></i>
+        <ul>
+            <h3>Science & Art of Games</h3>
+            <li>Learning the components of joy and proactive living</li>
+        </ul>
+    </div>
+</section>
+
+<section class="registeration" id = "reg">
+<div class="registration">
+    <div class="register">
+        <h1>How do you want <br> to register?</h1>
+
+        <div class="row1">
+            <div class="form">
+                <i class = "fa fa-users"></i>
+                <h1>Creator</h1>
+                <p>Register for The Festival Game Jam</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyWaNfpDFIZL-SEs1dI6KAv2fs5BLamfNpinIb0uBTZgvY5w/viewform">Register</a>
+            </div>
+
+            <div class="form">
+                <i class = "fa fa-hand-paper-o"></i>
+                <h1>Vounteer</h1>
+                <p>Register as Volunteer and take part proactively</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeegxGkACQoz3bcnmX9hXNHl_s29g95O84f6HYqK0ptyL7tyw/viewform">Register</a>
+            </div>
+
+            <div class="form">
+                <i class = "fa fa-gamepad"></i>
+                <h1>Gamer</h1>
+                <p>Register for the Competiton</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeotJlsUR0mjGtdGjxG8WDoTkfOiHghBOkw42sELVjVVWokcg/viewform">Register</a>
+            </div>
+        </div>
+
+        <div class="row1">
+            <div class="form">
+                <i class = "fa fa-hand-paper-o"></i>
+                <h1>Award</h1>
+                <p>Make Award submission.</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfs0iNMvRPu6hP4yJg3zI6xf6FJEiw7FTcPrbKdhCd5QFMYQg/viewform">Register</a>
+            </div>
+
+            <div class="form">
+                <i class = "fa fa-users"></i>
+                <h1>Speaker</h1>
+                <p>Register to speak during the festival</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtFl_PzGwMTBQglYWq5kONfvjdutzKFIrVO7RAFlAoMKPImg/viewform">Register</a>
+            </div>
+
+            <div class="form">
+                <i class = "fa fa-book"></i>
+                <h1>Learn</h1>
+                <p>Register for the Workshops</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkaon0UB0JSCDF2mpWWvkw64ncxecLjE2vPHY8Mjae8l_2pw/viewform">Register</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+</section>
+
+<section class="footer">
+    <div class="convention">
+        <h4>CHEWATACON</h4>
+        <p>Let There Be Games</p>
+        <p>Chewatacon 2021</p>
+        <div class="socials">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+    </div>
+    <div class="explore">
+        <h4>EXPLORE</h4>
+        <ul>
+            <li><a href="{% url 'chewata-about' %}">About</a></li>
+            <li><a href="{% url 'chewata-schedule' %}">Contact</a></li>
+            <li><a href="{% url 'chewata-contact' %}">Schedule</a></li>
+        </ul>
+    </div>
+    <div class="getyourseat">
+        <h4>GET YOUR SEAT</h4>
+        <a href="#reg">REGISTER NOW!</a>
+    </div>
+    <div class="have_questions">
+        <h4>HAVE QUESTIONS?</h4>
+        <div class="location">
+            <i></i>
+            <p></p>
+        </div>
+        <div class="contact">
+            <i></i>
+            <p></p>
+        </div>
+        <div class="info">
+            <i></i>
+            <p></p>
+        </div>
+    </div>
+</section>
+{% endblock home %}
+

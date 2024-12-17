@@ -1,0 +1,632 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+}
+
+body h1{
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+body a{
+    font-family: 'Gluten', cursive;
+}
+
+body p{
+    font-family: 'Gluten', cursive;
+}
+
+body h2{
+    font-family: 'Orbitron', sans-serif;
+}
+
+body h3{
+    font-family: 'Orbitron', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 0.2em;
+    
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(238, 255, 0);
+    border-radius: 2px;
+}
+
+.navigation{
+    position: fixed;
+    width: 100%;
+    background: rgb(238, 255, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    box-shadow: 0 0 25px 0 black;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 15%;
+}
+
+.nav_bar{
+    margin-right: 3%;
+    width: 50%;
+    padding-top: 1%;
+}
+
+.nav_bar a{
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav_bar a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    padding: 6%;
+}
+
+.intro_img{
+    width: 40%;
+    padding-top: 5%;
+}
+
+.intro_img img{
+    width: 100%;
+}
+
+.intro h1{
+    font-size: 80px;
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+
+.intro h2{
+    padding-top: 30%;
+    color: rgb(255, 255, 255);
+}
+
+.intro a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background: rgb(255, 0, 179);
+    padding: 4%;
+    border-radius: 3px;
+}
+
+.intro a:hover{
+    background: rgb(238, 255, 0);
+    color: black;
+    font-size: 25px;
+    transition: 1s;
+}
+
+.intro{
+    background: url(back.png);
+    background-size: cover;
+}
+
+
+.discription{
+    margin-top: 4%;
+    display: flex;
+}
+
+.discription_txt{
+    flex: 1;
+    padding-top: 12%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.discription_txt h5{
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 5%;
+    color: rgba(14, 255, 14, 0.616);
+    font-size: 20px;
+}
+
+.discription_txt h1{
+    padding-bottom: 5%;
+    color: white;
+}
+
+.discription_txt p{
+    color: white;
+}
+
+.discription_img{
+    width: 30%;
+    padding-left: 16%;
+    padding-top: 0.4%;
+}
+
+.discription_img img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 35px 0 black;
+}
+
+.promovid{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.promovid iframe{
+    width: 60%;
+    height: 80vh;
+}
+
+.banner{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    height: 85vh;
+}
+
+.icons_txt{
+    margin: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(238, 255, 0);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+    padding-top: 3%;
+    background: rgb(255, 0, 179);
+    color: rgb(0, 0, 0);
+
+}
+
+.icons ul{
+    list-style: none; 
+}
+
+.n_events{
+    display: flex;
+    width: 20%;
+}
+
+.n_photos{
+    display: flex;
+    width: 20%;
+}
+
+.n_speakers{
+    display: flex;
+    width: 20%;
+}
+
+.n_places{
+    display: flex;
+    width: 20%;
+}
+
+.n_events i{
+    font-size: 45px;
+    padding-right: 20%;
+}
+
+.n_photos i{
+    font-size: 45px;
+    padding-right: 10%;
+}
+
+.n_places i{
+    font-size: 45px;
+    padding-right: 10%;
+}
+
+.n_speakers i{
+    font-size: 45px;
+    padding-right: 10%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    margin-bottom: 0%;
+    background: rgb(255, 0, 179);
+    color: rgb(255, 255, 255);
+}
+
+.footer h4{
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 8%;
+    color: rgb(238, 255, 0);
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    padding-bottom: 3%;
+}
+
+.footer ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.getyourseat a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.about_intro_txt{
+    color: white;
+    padding-top: 7%;
+    padding-left: 4%;
+    text-align: left;
+}
+
+.about_intro_txt h1{
+    padding-bottom: 8%;
+    font-size: 55px;
+    
+}
+
+.about_body{
+    display: flex;
+    color: white;
+    width: 85%;
+    margin-left: 15%;
+}
+
+.about_img{
+    width: 20%;
+}
+
+.about_img img{
+    width: 100%;
+}
+
+.about_txt{
+    width: 30%;
+    margin-left: 3%;
+}
+
+.about_txt ul{
+    padding: 5%;
+    padding-left: 65%;
+}
+
+.about_txt ul a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding-right: 8%;
+    padding-left: 19%;
+}
+
+.about_txt ul a:hover{
+    color: rgb(238, 255, 0);
+}
+
+.gohete_txt{
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+}
+
+.gohete{
+    margin: 5%;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gohete img{
+    width: 100%;
+    margin-left: 65%;
+    border-radius: 50%;
+}
+
+.register{
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 15%;
+}
+
+.register h1{
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 40px;
+}
+
+.row1 h1{
+    font-size: 30px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.row1 p {
+    color: rgb(238, 255, 0);
+    margin-bottom: 4%;
+}
+
+.form{
+    width: 40%;
+}
+
+.form a{
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    background: rgba(14, 255, 14, 0.616);
+    padding: 2%;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.form a:hover{
+    background: rgb(255, 0, 179);
+}
+
+.form i{
+    color: white;
+    font-size: 40px;
+    border: 2px solid white;
+    padding: 2%;
+    border-radius: 50%;
+}
+
+.form i:hover{
+    background: white;
+    color: black;
+}
+
+.timeline_sec{
+    display: flex;
+}
+
+.timeline{
+    width: 50%;
+    text-align: center;
+    margin-left: 5%;
+
+}
+
+.timeline img{
+    flex: 1;
+    margin-top: 20%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.timeline_txt{
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: white;
+}
+
+.timeline_txt p{
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+    .navigation{
+        display: block;
+    }
+
+    .navigation h1{
+        font-size: 20px;
+    }
+
+    .logo img{
+        width: 20%;
+    }
+    
+    .nav_bar{
+        width: 60%;
+    }
+    
+    .nav_bar a{
+        font-size: 10px;
+    }
+    
+    .intro{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        text-align: center;
+        padding: 6%;
+        padding-top: 25%;
+    }
+    
+    .intro_img{
+        width: 40%;
+        padding-top: 10%;
+    }
+    
+    .intro_img img{
+        width: 100%;
+    }
+    
+    .intro h1{
+        font-size: 20px;
+    }
+    
+    .intro h2{
+        padding-top: 20%;
+        font-size: 10px;
+    }
+    
+    .intro a{
+        font-size: 10px;
+    }
+    
+    .discription_txt h5{
+        font-size: 15px;
+    }
+    
+    .discription_txt h1{
+        font-size: 20px;
+    }
+    
+    .discription_txt p{
+        font-size: 10px;
+    }
+    
+    .discription_img{
+        display: none;
+    }
+    
+    .promovid{
+        margin-top: 10%;
+        width: 100%;
+    }
+    
+    .promovid iframe{
+        width: 80%;
+        height: 50vh;
+    }
+    
+    .banner{
+        display: none;
+    }
+    
+    .icons_txt{
+        font-size: 10px;
+    }
+    
+    .icons{
+        flex-direction: column;
+    }
+
+    .n_events i{
+        padding-right: 40%;
+    }
+
+    .n_places i{
+        padding-right: 30%;
+    }
+    
+    .n_speakers i{
+        padding-right: 35%;
+    }
+    
+    .getyourseat{
+        display: none;
+    }
+
+    .have_questions{
+        display: none;
+    }
+    
+    .about_intro_txt{
+        padding-top: 19%;
+    }
+
+    
+    .about_body{
+        flex-direction: column;
+        width: 85%;
+        margin-left: 15%;
+    }
+    
+    .about_img{
+        width: 80%;
+    }
+    
+    .about_txt{
+        width: 70%;
+        margin-left: 3%;
+    }
+
+    .gohete_txt h1{
+        font-size: 20px;
+    }
+    
+    
+    .register{
+        text-align: center;
+        margin-bottom: 10%;
+        margin-top: 15%;
+    }
+    
+    .register h1{
+        font-size: 20px;
+    }
+    
+    .row1 h1{
+        font-size: 20px;
+    }
+    
+    .row1{
+        flex-direction: column;
+        margin-left: 40%;
+    }
+    
+    .row1 p {
+        font-size: 10px;
+        padding-bottom: 3%;
+    }
+
+    .form i{
+        padding: 8%;
+        margin-top: 25%;
+    }
+    
+    .timeline_sec{
+        flex-direction: column;
+    }
+    
+    .timeline{
+        display: none;
+    }
+
+    .timeline_txt{
+        width: 80%;
+        margin-top: 25%;
+    }
+    
+
+}

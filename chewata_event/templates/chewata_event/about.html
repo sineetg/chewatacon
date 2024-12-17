@@ -1,0 +1,33 @@
+{% extends 'chewata_event/base.html' %}
+{% load static %}
+{% block about %}
+    <section class="about_intro">
+        <div class="about_intro_txt">
+            <h1>About us</h1>
+        </div>
+    </section>
+
+    <div class="about_body">
+        <div class="about_img">
+            <img src="{% static 'chewata_event/logo.jpg' %}" alt="">
+        </div>
+
+        <div class="about_txt">
+            <h1>Chewatacon</h1>
+            <P>"In a nutshell: This month-long festival will be about celebrating playfulness, our game culture and promote the Ethiopian gaming ecosystem in order to establish a stronger, synergized gaming scene."</P>
+        </div>
+    </div>
+
+    <div class="gohete_txt">
+        <h1>AS FEATURED IN</h1>
+    </div>
+
+    <div class="gohete">
+        <img src="{% static 'chewata_event/gohe.jpg' %}" alt="">
+        <img src="{% static 'chewata_event/gohe.jpg' %}" alt="">
+        <img src="{% static 'chewata_event/gohe.jpg' %}" alt="">
+        <img src="{% static 'chewata_event/gohe.jpg' %}" alt="">
+        <img src="{% static 'chewata_event/gohe.jpg' %}" alt="">
+    </div>
+
+{% endblock about %}
